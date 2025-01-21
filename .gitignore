@@ -6,3 +6,6 @@ node_modules/
 
 # vscode configs
 .vscode/
+
+# .DS_Store artifacts
+.DS_Store
