@@ -10,9 +10,7 @@
   },
   "eslintConfig": {
     "extends": "wesbos/typescript.js",
-    "rules": {
-      "@typescript-eslint/no-unsafe-assignment": 0
-    }
+    "rules": {}
   },
   "babel": {
     "presets": [
