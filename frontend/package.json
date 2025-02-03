@@ -9,7 +9,7 @@
     "start": "next start -p 7777",
     "test": "NODE_ENV=test jest --watch"
   },
-  "author": "",
+  "author": "Matthew Pineda",
   "license": "ISC",
   "dependencies": {
     "@apollo/client": "3.4.0",
@@ -70,7 +70,6 @@
       "./jest.setup.js"
     ]
   },
-  "//": "This is our babel config, I prefer this over a .babelrc file",
   "babel": {
     "env": {
       "development": {
