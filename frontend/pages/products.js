@@ -1,6 +1,8 @@
+import Products from '../components/Products';
+
 const ProductsPage = () => (
   <div>
-    <p>Hello Next.js</p>
+    <Products />
   </div>
 );
 

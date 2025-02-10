@@ -1,7 +1,3 @@
-const IndexPage = () => (
-  <>
-    <p>Hello Next.js</p>
-  </>
-);
+import ProductsPage from './products.js';
 
-export default IndexPage;
+export default ProductsPage;
