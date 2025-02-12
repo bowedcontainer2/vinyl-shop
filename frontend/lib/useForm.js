@@ -1,8 +1,14 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 const useForm = (initial = {}) => {
   // create state object for form inputs
   const [inputs, setInputs] = useState(initial);
+  const initialValues = JSON.stringify(initial);
+
+  useEffect(() => {
+    setInputs(initial);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [initialValues]);
 
   const handleChange = (event) => {
     let { value, name, type } = event.target;
