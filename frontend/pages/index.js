@@ -1,3 +1,3 @@
-import ProductsPage from './products.js';
+import ProductsPage from './products';
 
 export default ProductsPage;
